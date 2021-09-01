@@ -1,7 +1,7 @@
-name = "worker-typescript-template"
+name = "cdn"
 type = "javascript"
 zone_id = ""
-account_id = ""
+account_id = "b69409567f337af33d1edd4084c20bc9"
 route = ""
 workers_dev = true
 
