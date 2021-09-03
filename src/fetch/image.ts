@@ -33,7 +33,7 @@ export async function image(id: string, event: FetchEvent): Promise<Response> {
       type &&
       imageResponse.status >= 200 &&
       imageResponse.status <= 300 &&
-      imageResponse.redirected == false
+      imageResponse.redirected == false // Imgur redirect on 404 error
     ) {
       event.waitUntil(cache.put(url, imageResponse.clone()))
     } else {

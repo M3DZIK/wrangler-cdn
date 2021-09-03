@@ -1,4 +1,4 @@
-export function jsonError(error: string, status: number = 400): Response {
+export function jsonError(error: string, status = 400): Response {
   return new Response(
     JSON.stringify({
       error,

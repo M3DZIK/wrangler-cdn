@@ -1,4 +1,12 @@
-dist
-node_modules
-transpiled
-/.idea/
+# Node
+node_modules/
+
+# Typescript
+/dist/
+
+# Env
+*.env*
+!schema.env
+
+# Dotfiles
+.cache
