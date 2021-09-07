@@ -1,1 +1,3 @@
-# Cloudflare workers to proxy Imgur
+# Cloudflare Workers to proxy Imgur
+
+Proxy Imgur images using Cloudflare Workers
