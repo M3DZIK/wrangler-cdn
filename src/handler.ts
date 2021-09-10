@@ -10,7 +10,7 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
     if (!path) return jsonError('No Filename', 406)
 
     return await image(path, event)
-  } catch (err) {
-    return jsonError(err?.toString(), 500)
+  } catch (err: any) {
+    return jsonError(err.toString(), 500)
   }
 }
