@@ -11,6 +11,6 @@ export async function handleRequest(event: FetchEvent): Promise<Response> {
 
     return await image(path, event)
   } catch (err) {
-    return jsonError(err.toString(), 500)
+    return jsonError(err?.toString(), 500)
   }
 }
