@@ -1,13 +1,12 @@
 {
   "name": "cdn",
   "version": "1.0.0",
-  "description": "Cloudflare worker TypeScript template",
+  "description": "Imgur proxy",
   "main": "dist/worker.js",
   "scripts": {
     "build": "webpack",
     "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'",
-    "lint": "eslint --fix --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'",
-    "test": "jest --config jestconfig.json --verbose"
+    "lint": "eslint --fix --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
   },
   "author": "MedzikUser",
   "license": "MIT",
@@ -19,7 +18,7 @@
     ]
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "2.2.2",
+    "@cloudflare/workers-types": "3.4.0",
     "@types/jest": "27.4.1",
     "@types/service-worker-mock": "2.0.1",
     "@typescript-eslint/eslint-plugin": "5.12.1",
