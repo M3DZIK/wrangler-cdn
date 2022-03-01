@@ -9,7 +9,7 @@ jobs:
     name: deploy
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Deps
         run: npm i @cloudflare/wrangler -g
