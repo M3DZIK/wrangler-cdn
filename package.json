@@ -27,7 +27,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-typescript": "3.0.0",
     "jest": "27.5.1",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "service-worker-mock": "2.0.5",
     "ts-jest": "27.1.4",
     "ts-loader": "9.2.8",
