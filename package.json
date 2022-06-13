@@ -29,7 +29,7 @@
     "jest": "28.1.1",
     "prettier": "2.6.2",
     "service-worker-mock": "2.0.5",
-    "ts-jest": "28.0.4",
+    "ts-jest": "28.0.5",
     "ts-loader": "9.3.0",
     "typescript": "4.7.3",
     "webpack": "5.73.0",
