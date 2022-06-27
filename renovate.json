@@ -1,11 +1,11 @@
 {
-  "extends": ["config:base"],
-  "automergeType": "pr",
-  "prCreation": "immediate",
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ]
+    "extends": ["config:base"],
+    "automergeType": "pr",
+    "prCreation": "immediate",
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+            "automerge": true
+        }
+    ]
 }

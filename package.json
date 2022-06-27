@@ -1,38 +1,36 @@
 {
-  "name": "cdn",
-  "version": "1.0.0",
-  "description": "Imgur proxy",
-  "main": "dist/worker.js",
-  "scripts": {
-    "build": "webpack",
-    "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'",
-    "lint": "eslint --fix --max-warnings=0 src && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
-  },
-  "author": "MedzikUser",
-  "license": "MIT",
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "typescript",
-      "prettier"
-    ]
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "3.13.0",
-    "@types/jest": "28.1.3",
-    "@types/service-worker-mock": "2.0.1",
-    "@typescript-eslint/eslint-plugin": "5.30.0",
-    "@typescript-eslint/parser": "5.30.0",
-    "eslint": "8.18.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-config-typescript": "3.0.0",
-    "jest": "28.1.1",
-    "prettier": "2.7.1",
-    "service-worker-mock": "2.0.5",
-    "ts-jest": "28.0.5",
-    "ts-loader": "9.3.1",
-    "typescript": "4.7.4",
-    "webpack": "5.73.0",
-    "webpack-cli": "4.10.0"
-  }
+    "name": "cdn",
+    "version": "1.0.0",
+    "description": "Imgur proxy",
+    "main": "dist/worker.js",
+    "author": "MedzikUser",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'",
+        "lint": "eslint --fix && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "3.13.0",
+        "@types/service-worker-mock": "2.0.1",
+        "@typescript-eslint/eslint-plugin": "5.30.0",
+        "@typescript-eslint/parser": "5.30.0",
+        "eslint": "8.18.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-config-typescript": "3.0.0",
+        "prettier": "2.7.1",
+        "prettier-eslint": "^15.0.1",
+        "service-worker-mock": "2.0.5",
+        "ts-loader": "9.3.1",
+        "typescript": "4.7.4",
+        "webpack": "5.73.0",
+        "webpack-cli": "4.10.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "extends": [
+            "typescript",
+            "prettier"
+        ]
+    }
 }
