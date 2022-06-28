@@ -1,4 +1,4 @@
-name: pr
+name: Pull Request
 
 on:
   pull_request:
@@ -11,8 +11,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Deps
-        run: npm i @cloudflare/wrangler -g
+      - name: Install wrangler
+        run: npm i -g @cloudflare/wrangler
 
       - name: Build
         run: wrangler build
