@@ -15,7 +15,7 @@
         "@types/service-worker-mock": "2.0.1",
         "@typescript-eslint/eslint-plugin": "5.35.1",
         "@typescript-eslint/parser": "5.35.1",
-        "eslint": "8.22.0",
+        "eslint": "8.23.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-config-typescript": "3.0.0",
         "prettier": "2.7.1",
