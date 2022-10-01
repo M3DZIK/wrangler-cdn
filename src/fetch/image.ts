@@ -29,6 +29,11 @@ export async function image(id: string, event: FetchEvent): Promise<Response> {
 
         const type = imageResponse.headers.get('content-type')
 
+        // set `Content-Type` in mp4 video for video plater in browser
+        if (response?.url?.includes('.mp4')) {
+            response.headers.set('Content-Type', 'video/mp4')
+        }
+
         if (
             type &&
             imageResponse.status >= 200 &&
