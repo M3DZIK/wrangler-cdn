@@ -11,7 +11,7 @@
         "lint": "eslint --fix && prettier --check '*.{json,js}' 'src/**/*.{js,ts}'"
     },
     "devDependencies": {
-        "@cloudflare/workers-types": "3.17.0",
+        "@cloudflare/workers-types": "3.18.0",
         "@types/service-worker-mock": "2.0.1",
         "@typescript-eslint/eslint-plugin": "5.40.1",
         "@typescript-eslint/parser": "5.40.1",
