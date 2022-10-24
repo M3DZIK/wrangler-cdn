@@ -13,8 +13,8 @@
     "devDependencies": {
         "@cloudflare/workers-types": "3.18.0",
         "@types/service-worker-mock": "2.0.1",
-        "@typescript-eslint/eslint-plugin": "5.40.1",
-        "@typescript-eslint/parser": "5.40.1",
+        "@typescript-eslint/eslint-plugin": "5.41.0",
+        "@typescript-eslint/parser": "5.41.0",
         "eslint": "8.26.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-config-typescript": "3.0.0",
