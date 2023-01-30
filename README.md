@@ -92,3 +92,5 @@ Go to [Actions -> Deploy to Cloudflare Pages](../../actions/workflows/deploy.yml
 If you see the green checkmark, then the deployment is successful. And you can see a Pages project in your [Cloudflare dashboard](https://dash.cloudflare.com/sign-up/pages).
 You can access the site via `${CLOUDFLARE_PROJECT_NAME}.pages.dev`
 </details>
+
+**Big thanks to [Bad3r](https://github.com/Bad3r) for creating the documentation!**
