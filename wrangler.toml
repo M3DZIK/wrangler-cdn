@@ -1,7 +1,7 @@
-name = "cdn"
+name = "${{ secrets.CLOUDFLARE_PROJECT_NAME }}"
 type = "javascript"
 zone_id = ""
-account_id = "b69409567f337af33d1edd4084c20bc9"
+account_id = "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
 route = ""
 workers_dev = true
 
