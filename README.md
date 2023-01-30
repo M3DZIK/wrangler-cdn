@@ -59,9 +59,10 @@ Create a custom token:
 
 <img width="925" alt="create_token" src="https://user-images.githubusercontent.com/1719237/205525627-14da54ae-1733-4db5-b65d-94f5ec48f360.png">
 
-We need edit permission for both Cloudflare Pages:
+We need edit permission for Cloudflare workers scripts:
 
-<img width="990" alt="permissions" src="https://user-images.githubusercontent.com/25513724/215377629-617a657c-1672-45f3-aa74-da81b12422b0.png">
+<img width="990" alt="permissions" src="https://user-images.githubusercontent.com/25513724/215381483-2101f57b-a0d1-4217-899a-0b10b6011546.png">
+![image]()
 
 
 Finally, copy the API token here:
