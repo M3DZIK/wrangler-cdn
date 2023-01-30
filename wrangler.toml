@@ -1,11 +1,7 @@
 name = "cdn"
-type = "javascript"
-zone_id = ""
-account_id = "b69409567f337af33d1edd4084c20bc9"
-route = ""
+compatibility_date = "2023-01-30"
+main = "./src/index.ts"
 workers_dev = true
 
 [build]
 command = "npm install && npm run build"
-[build.upload]
-format = "service-worker"
