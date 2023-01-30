@@ -47,7 +47,7 @@ https://dash.cloudflare.com/fff88980eeeeedcc3ffffd4f555f4999
 
 Then you'll set **CLOUDFLARE_ACCOUNT_ID** to **fff88980eeeeedcc3ffffd4f555f4999**:
 
-<img width="846" alt="Screenshot 2022-12-17 at 10 31 10 AM" src="https://user-images.githubusercontent.com/1719237/208216752-56f00f51-29cb-43ea-b720-75244719898d.png">
+<img width="846" alt="CF account ID" src="https://user-images.githubusercontent.com/1719237/208216752-56f00f51-29cb-43ea-b720-75244719898d.png">
 </details>
 
 <details>
@@ -57,15 +57,16 @@ You'll need to create an API token here: [https://dash.cloudflare.com/profile/ap
 
 Create a custom token:
 
-<img width="925" alt="Screenshot 2022-12-04 at 4 30 57 PM" src="https://user-images.githubusercontent.com/1719237/205525627-14da54ae-1733-4db5-b65d-94f5ec48f360.png">
+<img width="925" alt="create_token" src="https://user-images.githubusercontent.com/1719237/205525627-14da54ae-1733-4db5-b65d-94f5ec48f360.png">
 
-We need edit permission for both Cloudflare Pages and D1:
+We need edit permission for both Cloudflare Pages:
 
-<img width="990" alt="Screenshot 2022-12-04 at 4 31 41 PM" src="https://user-images.githubusercontent.com/1719237/205525675-4c8a6bce-21a8-45e3-bf0c-28981f123da3.png">
+<img width="990" alt="permissions" src="https://user-images.githubusercontent.com/25513724/215377629-617a657c-1672-45f3-aa74-da81b12422b0.png">
+
 
 Finally, copy the API token here:
 
-<img width="682" alt="Screenshot 2022-12-04 at 4 34 01 PM" src="https://user-images.githubusercontent.com/1719237/205525785-6fed8e49-7342-4b36-9d07-348e1c28cbcc.png">
+<img width="682" alt="API_token" src="https://user-images.githubusercontent.com/1719237/205525785-6fed8e49-7342-4b36-9d07-348e1c28cbcc.png">
 
   </details>
 
@@ -86,7 +87,7 @@ Note: Don't use underscore (_), space ( ), and other characters outside [a-z], [
 
 Go to [Actions -> Deploy to Cloudflare Pages](../../actions/workflows/deploy.yml) and run Workflow
 
-<img width="1606" alt="Screenshot 2022-12-04 at 4 11 19 PM" src="https://user-images.githubusercontent.com/1719237/205526856-05ea0ff4-703a-4d08-bc7f-4ae2dfc07cfe.png">
+<img width="1606" alt="deploy" src="https://user-images.githubusercontent.com/1719237/205526856-05ea0ff4-703a-4d08-bc7f-4ae2dfc07cfe.png">
 
 If you see the green checkmark, then the deployment is successful. And you can see a Pages project in your [Cloudflare dashboard](https://dash.cloudflare.com/sign-up/pages).
 You can access the site via `${CLOUDFLARE_PROJECT_NAME}.pages.dev`
