@@ -62,7 +62,6 @@ Create a custom token:
 We need edit permission for Cloudflare workers scripts:
 
 <img width="990" alt="permissions" src="https://user-images.githubusercontent.com/25513724/215381483-2101f57b-a0d1-4217-899a-0b10b6011546.png">
-![image]()
 
 
 Finally, copy the API token here:
