@@ -1,8 +1,4 @@
-name = "${{ secrets.CLOUDFLARE_PROJECT_NAME }}"
-type = "javascript"
-zone_id = ""
-account_id = "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
-route = ""
+main = "./src/index.ts"
 workers_dev = true
 
 [build]
