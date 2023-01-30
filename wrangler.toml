@@ -1,7 +1,7 @@
+name = "cdn"
+compatibility_date = "2023-01-30"
 main = "./src/index.ts"
 workers_dev = true
 
 [build]
 command = "npm install && npm run build"
-[build.upload]
-format = "service-worker"
